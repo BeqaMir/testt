@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E8E8E8;
+}
+.width{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-align-items{
+    display: flex;
+    align-items: center;
+}
+.nav-bar{
+    justify-content: space-between;
+    padding-top: 36px;
+}
+.nav-info-box ul li {
+    list-style-type: none;
+}
+.nav-info-box ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Saira Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+.nav-logo-box img{
+    width: 49px;
+    height: 51px;
+}
+.nav-logo-box h3{
+    width: 145px;
+    padding-left: 10px;
+    color: #FFF;
+    font-family: Saira Condensed;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+.nav-info-box button{
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: #E73539;
+    border: none;
+}
+.nav-info-box button a{
+    color: #FFF;
+    font-family: Saira Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.first-section h1{
+    color: #FFF;
+    font-family: Saira Condensed;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: uppercase;
+    padding-top: 126px;
+}
+.first-section span{
+    color: #E73539;
+    font-family: Saira Condensed;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: uppercase;
+}
+.categories{
+    width: 738px;
+    height: 165px;
+    background-color: #FFF;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.categories h3{
+    font-family: Saira Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #E73539;
+}
